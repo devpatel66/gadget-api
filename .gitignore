@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log
+yarn-debug.log
+pnpm-debug.log
+lerna-debug.log
+.log
+
+# TypeORM
+dist/
+typeorm.log
+typeorm/migrations/
+typeorm/cache/
+data/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.pgdata
+
+# Build files
+build/
+out/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Coverage reports
+coverage/
+.nyc_output/
